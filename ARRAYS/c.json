@@ -1,0 +1,3 @@
+{
+	"C Boilerplate": { "prefix": "!", "body": [ "#include <stdio.h>", "", "int main() {", " // Your code here", " return 0;", "}" ], "description": "Basic C program structure" }
+}

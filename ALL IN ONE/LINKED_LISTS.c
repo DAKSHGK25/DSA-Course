@@ -304,7 +304,7 @@ int main(){
                     printf("%d found in the Linked List at address %p\n", E->data, &(E->data));
                 }
                 else{
-                    printf("%d is not found in the Linked List\n");
+                    printf("%d is not found in the Linked List\n", ele);
                 }
                 break;
             case 7:

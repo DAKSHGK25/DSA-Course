@@ -1,4 +1,4 @@
-// Lower Bound -->> smallest index such that arr[index]>=n ; n - any given number
+// Upper Bound -->> smallest index such that arr[index]>n ; n - any given number
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -29,7 +29,7 @@ This repository contains my implementations and programs developed while learnin
 - Functions
 - Structures
 - Strings
-- Control Logic / CLA
+- Command Line Arguments / CLA
 
 ## Repository Structure
 

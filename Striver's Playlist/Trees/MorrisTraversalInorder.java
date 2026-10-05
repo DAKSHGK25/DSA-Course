@@ -1,4 +1,4 @@
-public class MorrisTraversal {
+public class MorrisTraversalInorder {
     public static void main(String[] args){
         Tree T = new Tree();
         T.createTree();
@@ -13,7 +13,7 @@ public class MorrisTraversal {
             }
             else{       // There exists a left subtree
                 // Move to the rightmost node of the left subtree:
-                // 1. If the thread to the root exists, then remove it and move on to the right subtree
+                // 1. If the thread to the root exists, then remove it, print the node.val and move on to the right subtree
                 // 2. If the thread doesn't exist, establish a thread and move to the left subtree
                 Node prev = curr.left;
                 while(prev.right != null && prev.right != curr){

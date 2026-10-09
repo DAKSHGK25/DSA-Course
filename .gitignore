@@ -50,3 +50,10 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Compiled Java files
+bin/
+*.class
+
+# VS Code settings
+.vscode/settings.json
